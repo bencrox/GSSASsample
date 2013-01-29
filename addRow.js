@@ -24,5 +24,5 @@ function newRow(){
  
   /* Insert UserID */
     SpreadsheetApp.getActiveSheet().getRange(_firstRowPosition,_nameCol)
-     .setValue(_usernam);
+     .setValue(_username);
 }  
